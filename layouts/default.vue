@@ -86,8 +86,8 @@ export default {
 
 <style>
  
-.navbar {
+/* .navbar {
     background-color: white;
     color: black;
-}
+} */
 </style>
