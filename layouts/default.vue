@@ -1,8 +1,9 @@
 <template>
-  <div class="has-navbar-fixed-top">
+  <div>
     <nav class="navbar header has-shadow is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item" href="/">
+        <a class="navbar-item is-size-3-tablet has-text-weight-bold" href="/">
           abarketa
         </a>
 
@@ -54,12 +55,9 @@
       <div class="navbar-item">
         <div class="field is-grouped">
           <p class="control">
-            <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
+            <a href="#" class="snipcart-checkout button badge is-badge-outlined" data-badge="1">
               <span class="icon">
                 <i class="material-icons">shopping_cart</i>
-              </span>
-              <span>
-                (0)
               </span>
             </a>
           </p>
@@ -68,9 +66,13 @@
       </div>
     </div>
   </div>
-    
+      </div>
     </nav>
+    <div>
        <nuxt />
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="YzViMTVmZWMtOTQ1My00MTYxLTkxNzgtZmUyNmRkZjE3OTM4NjM2NjMyMjE0OTE3MDA1MjMx"></script>   
   </div>
 </template>
 
@@ -86,8 +88,5 @@ export default {
 
 <style>
  
-/* .navbar {
-    background-color: white;
-    color: black;
-} */
+
 </style>

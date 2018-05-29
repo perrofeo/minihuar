@@ -1,5 +1,6 @@
 @import '~bulma/sass/utilities/initial-variables';
 @import '~bulma/sass/utilities/functions';
+
 // Set your brand colors
 $purple: #8A4D76;
 $green: hsl(141, 71%, 48%);
@@ -11,7 +12,7 @@ $beige-lighter: #EFF0EB;
 $family-sans-serif: "Nunito", sans-serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
-$primary: $purple;
+$primary: $green;
 $link: $green;
 
 // Update some of Bulma's component variables
@@ -21,3 +22,6 @@ $input-border-color: transparent;
 $input-shadow: none;
 
 @import '~bulma';
+@import '~bulma-badge';
+
+

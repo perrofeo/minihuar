@@ -15,7 +15,8 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {href:'https://fonts.googleapis.com/icon?family=Material+Icons', rel:'stylesheet'}
+      {href:'https://fonts.googleapis.com/icon?family=Material+Icons', rel:'stylesheet'},
+      { rel: 'stylesheet', href:'https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css'}
     ]
   },
 
