@@ -17,7 +17,7 @@
     "bulma": "^0.7.1",
     "bulma-badge": "^1.0.1",
     "material-design-icons": "^3.0.1",
-    "nuxt": "^1.0.0",
+    "nuxt": "^2.15.8",
     "nuxt-buefy": "^0.0.4",
     "vue-carousel": "^0.7.3"
   },
